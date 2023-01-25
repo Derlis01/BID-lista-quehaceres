@@ -1,0 +1,25 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    min-width: 250px;
+}
+
+.texto {
+    min-width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto > * {
+    margin-inline: 5px;
+}
+
+.task button {
+    margin-left: 20px;
+}
+
+.completado {
+    text-decoration: line-through;
+}
